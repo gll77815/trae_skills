@@ -20,7 +20,8 @@
 
 每次想用某个 Skill，都要在列表里翻半天，好不容易找到了，还得回忆它的触发词是什么。更头疼的是，有些复杂任务需要组合多个 Skill，但我经常搞混它们的用途和边界。
 
-![image|690x384](upload://wFLFqGv4AXVeZj6Wsjt5cFdhquc.jpeg)
+<img width="1920" height="1071" alt="image" src="https://github.com/user-attachments/assets/ed82044a-69a5-4ba3-9962-1597801a728a" />
+
 
 
 ### 灵感来源
@@ -43,7 +44,8 @@
 | 每次都要手动写长串 Prompt  | 智能体自带角色设定和边界约束    |
 
 
-![image|690x384](upload://xgQnkCFuExONPWJohjpckrwDLsZ.jpeg)
+<img width="1920" height="1069" alt="image" src="https://github.com/user-attachments/assets/b77a17f2-f08c-4f01-9110-d6515816acd0" />
+
 
 
 ## 3、创作过程
@@ -56,8 +58,10 @@
 - 支持**中文命名 + 拼音调用**（`/达叔` 或 `/dashu` - 这里用拼音主要解决斜杠命令无法用中文唤醒的问题，如果没有这个癖好直接中文喊也能唤醒Skill）
 - 创建后能**直接斜杠唤醒**，不需要额外配置
 
-![image|690x433](upload://rh9RQ1e0KSJbZ7mBQJuu0qD32Qo.jpeg)
-![image|690x433](upload://qzuQ9cHtA21xSAXPYzSyDbN52sC.png)
+<img width="1920" height="1205" alt="image" src="https://github.com/user-attachments/assets/5aee94c6-4877-41b7-bf1e-cd07de46c18a" />
+
+<img width="3024" height="1898" alt="image" src="https://github.com/user-attachments/assets/141a1442-4a34-4123-8940-f5ee5bb83312" />
+
 
 
 ### 第二步：架构设计
@@ -68,7 +72,9 @@
 - **防循环依赖**：智能体只能调用基础 Skill，不能调用其他智能体
 - **删除保护**：删除智能体时自动检查工作组引用，提示影响范围
 
-![image|690x433](upload://4ylsVglhKMzrOLC4W1fDO2h8H11.jpeg)
+
+<img width="1920" height="1205" alt="image" src="https://github.com/user-attachments/assets/ea1bb7ed-ddf7-400a-8609-4fcd88a5d7a3" />
+
 
 
 ### 第三步：Skill 文件编写
@@ -95,9 +101,12 @@ agent-alias/
 3. 给达叔添加 `slides` 技能 → 更新成功，获得 PPT 编制能力
 4. 验证边界约束 → 达叔拒绝写代码 ✅（不要再卷他了）
 
-![image|690x433](upload://yFuEv2C6nET58gg3G1ZAPbVavne.png)
-![image|690x433](upload://rYto2DwpBILMXfGojtHiDm7HzRZ.png)
-![image|690x433](upload://lR5b9OwX2RjlJ18ZXtZoxdsO9zm.png)
+
+<img width="3024" height="1898" alt="image" src="https://github.com/user-attachments/assets/39665303-efe9-443b-a998-1c013b16464b" />
+
+<img width="3024" height="1898" alt="image" src="https://github.com/user-attachments/assets/c28e8eea-ab90-4c33-916d-e06d816eb537" />
+
+<img width="3024" height="1898" alt="image" src="https://github.com/user-attachments/assets/b2ec5fb5-2659-41d0-ba0f-c5c430120b2d" />
 
 
 ### 第五步：发布前检查
@@ -137,7 +146,9 @@ agent-alias/
 ```
 /达叔 帮我设计一个登录流程
 ```
-![image|690x384](upload://lQp0x7g7gUKRy5xIhsxArwcHs47.jpeg)
+
+<img width="1920" height="1069" alt="image" src="https://github.com/user-attachments/assets/aae3c246-cdea-45de-8084-c5b63e63dc3d" />
+
 
 
 ### 进阶用法
@@ -153,19 +164,27 @@ agent-alias/
 ## 5、效果展示
 
 ### 创建智能体
-> ![image|277x500](upload://tg8dpIK9yVEaWn44BBlhiV8UQkP.jpeg)
+
+> <img width="1920" height="3462" alt="image" src="https://github.com/user-attachments/assets/22ec170c-4448-4a3d-800e-37e70a9d2f61" />
+
 
 ### 斜杠唤醒
 
-> ![image|690x433](upload://wkmPWjFL3JzCvc8BRACTXcDkERW.png)
+
+> <img width="3024" height="1898" alt="image" src="https://github.com/user-attachments/assets/844fc42d-256c-4cb5-849a-fb69095e8838" />
+
 
 ### 身份卡片展示
 
-> ![image|690x433](upload://jawNOWBf8Ie8XFaCl6dZYVE7pUo.png)
+
+> <img width="3024" height="1898" alt="image" src="https://github.com/user-attachments/assets/bbac2574-9cbe-46cd-9a79-e36f401d904c" />
+
 
 ### 智能体能力扩展
 
-> ![image|345x500](upload://ia6OMWux5ObkfALk0a71Tk131Fa.jpeg)
+
+> <img width="1920" height="2780" alt="image" src="https://github.com/user-attachments/assets/f5628856-ec5b-4c0d-a6cc-e66ac8c7f868" />
+
 
 ## 6、Skill 链接
 
