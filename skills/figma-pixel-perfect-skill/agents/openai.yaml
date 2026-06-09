@@ -1,0 +1,17 @@
+interface:
+  display_name: "Figma 像素级还原"
+  short_description: "通过 TalkToFigma 读取 Figma 设计，经解释引擎预处理后生成高保真前端代码，并通过浏览器验证引擎进行像素级对比校验"
+  icon_small: "./assets/icon-small.svg"
+  icon_large: "./assets/icon-large.svg"
+  default_prompt: "Use $figma-pixel-perfect to convert the Figma selection to pixel-perfect frontend code"
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "TalkToFigma"
+      description: "TalkToFigma MCP Server（cursor-talk-to-figma-mcp）"
+      transport: "stdio"
+    - type: "mcp"
+      value: "integrated_browser"
+      description: "浏览器验证引擎（内置浏览器 MCP）"
+      transport: "stdio"
